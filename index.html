@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toolbar">
+        <!--<div class="cross">Cross</div>-->
+        <div class="toolbar-options">
+            <div class="tool" id="pencil">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Black_Pencil.svg" class="tool-img" alt="">
+            </div>
+            <div class="tool" id="eraser">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Eraser.svg" class="tool-img" alt="">
+            </div>
+            <div class="tool" id="sticky">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/StickyNote.svg" class="tool-img" alt="">
+            </div>
+            <div class="tool" id="upload">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Photo.svg" alt="" class="tool-img">
+            </div>
+            <div class="tool" id="download">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Download.svg" alt="" class="tool-img">
+            </div>
+            <div class="tool" id="undo">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Undo.svg" alt="" class="tool-img">
+            </div>
+            <div class="tool" id="redo">
+                <img src="file:///C:/Users/Win11%20Pro/Downloads/WhiteboardICONS/WhiteboardICONS/Redo.svg" alt="" class="tool-img">
+            </div>
+        </div>
+        <input type="file" class="input-tag">
+    </div>
+    <!-- canvas -> that will help you to draw on 
+    a webpage
+    -->
+
+    <canvas id="board"></canvas>
+    <script src="tools.js"></script>
+</body>
+
+</html>

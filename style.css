@@ -1,0 +1,69 @@
+/* body tag  */
+body {
+    margin: 0px;
+}
+
+/* every elemnt in html */
+* {
+    box-sizing: border-box;
+}
+
+.tool-img {
+    height: 4rem;
+    box-shadow: 5px 5px 5px rgb(72, 66, 66) ;
+    transition: transform 0.2s ,box-shadow 0.2s;
+}
+
+.tool:active{
+    transform:scale(0.9);
+}
+
+.tool-img:hover{
+    transform:scale(1.1);
+}
+.toolbar-options {
+    display: flex;
+    margin:20px;
+}
+
+.toolbar {
+    display        : flex;
+    justify-content: center;
+    gap            : 2rem;
+}
+
+.tool{
+    padding:5px;
+}
+.sticky {
+    height: 10rem;
+    width : 6rem;
+    position: absolute;
+    left    : 40vw;
+    top     : 40vh;
+}
+
+.nav {
+    border          : 1px solid black;
+    height          : 20%;
+    background-color: rgb(121, 123, 122);
+    display         : flex;
+    justify-content : flex-end;
+    gap             : 1rem;
+
+}
+
+.text-area {
+    height: 80%;
+    width : 100%;
+}
+
+
+.input-tag {
+    display: none;
+}
+
+.upload-img {
+    height: 80%;
+    width : 100%;
+}
